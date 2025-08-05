@@ -1,1 +1,1 @@
-# vscode
+This file has been removed.
