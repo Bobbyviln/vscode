@@ -2,7 +2,7 @@
 
 A Python tool that converts street addresses to GPS coordinates and retrieves satellite imagery from public APIs.
 
-## 🎯 Project Overview
+##  Project Overview
 
 This tool demonstrates several key programming concepts:
 - **API Integration**: Working with external geocoding and satellite image services
@@ -11,7 +11,7 @@ This tool demonstrates several key programming concepts:
 - **Type Hints**: Clear function signatures with type annotations
 - **Logging**: Comprehensive logging for debugging and monitoring
 
-## 🏗️ Architecture Breakdown
+##  Architecture Breakdown
 
 ### 1. **Geocoding Component** (`get_coordinates`)
 - **Purpose**: Converts human-readable addresses to GPS coordinates
@@ -32,7 +32,7 @@ This tool demonstrates several key programming concepts:
   - Error handling and fallbacks
   - Mock image generation for testing
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Installation
 
@@ -70,7 +70,7 @@ with open("satellite_image.jpg", "wb") as f:
 coords, image_bytes = get_satellite_image("Test Address", use_mock=True)
 ```
 
-## 📚 Educational Breakdown
+##  Educational Breakdown
 
 ### Understanding the Code Structure
 
@@ -139,7 +139,7 @@ def get_satellite_image(address: str, use_mock: bool = False):
 - **Data**: MODIS satellite imagery (updated daily)
 - **Format**: Web Map Tile Service (WMTS)
 
-## 🔧 Advanced Features
+##  Advanced Features
 
 ### 1. **Error Handling Strategy**
 ```python
@@ -169,7 +169,7 @@ def create_mock_image(lat: float, lon: float) -> bytes:
     return img_bytes.getvalue()
 ```
 
-## 🧪 Testing the Tool
+##  Testing the Tool
 
 Run the included test script:
 ```bash
@@ -181,7 +181,7 @@ This will test three addresses:
 2. 1600 Amphitheatre Parkway, Mountain View, CA (Google HQ)
 3. Eiffel Tower, Paris, France
 
-## 🎓 Learning Objectives
+##  Learning Objectives
 
 After studying this code, you should understand:
 
@@ -192,7 +192,7 @@ After studying this code, you should understand:
 5. **Logging**: Debugging and monitoring practices
 6. **Modular Design**: Separating concerns into functions
 
-## 🔮 Potential Enhancements
+##  Potential Enhancements
 
 1. **Add More APIs**: Google Maps, Mapbox (requires API keys)
 2. **Image Processing**: Add filters, annotations, or overlays
@@ -201,7 +201,7 @@ After studying this code, you should understand:
 5. **Database Storage**: Save results to SQLite/PostgreSQL
 6. **Scheduling**: Automatically update images periodically
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Common Issues
 
@@ -216,14 +216,14 @@ import logging
 logging.basicConfig(level=logging.DEBUG)
 ```
 
-## 📖 Further Reading
+##  Further Reading
 
 - [Nominatim Usage Policy](https://operations.osmfoundation.org/policies/nominatim/)
 - [NASA GIBS Documentation](https://wiki.earthdata.nasa.gov/display/GIBS)
 - [Python Requests Library](https://requests.readthedocs.io/)
 - [Pillow (PIL) Documentation](https://pillow.readthedocs.io/)
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to:
 - Add more satellite image providers
@@ -234,4 +234,4 @@ Feel free to:
 
 ---
 
-**Happy Coding! 🚀** 
+**Happy Coding!** 
